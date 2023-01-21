@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "relaxed-instabreak",
+  "version": "${version}",
+
+  "name": "Relaxed Instabreak",
+  "description": "Yes Fast, No Too Fast",
+  "authors": [
+    "d2aniel"
+  ],
+  "contact": {
+    "homepage": "https://github.com/darmiel"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/relaxed-instabreak/icon.png",
+
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "io.d2a.relaxedinstabreak.RelaxedInstabreakMod"
+    ]
+  },
+  "mixins": [
+    "relaxed-instabreak.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.11",
+    "fabric-api": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  }
+}

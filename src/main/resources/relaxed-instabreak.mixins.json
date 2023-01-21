@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "io.d2a.relaxedinstabreak.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "client": [
+    "BlockBreakMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
