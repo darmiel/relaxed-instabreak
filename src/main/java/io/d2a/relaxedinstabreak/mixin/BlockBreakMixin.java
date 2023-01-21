@@ -20,7 +20,6 @@ public abstract class BlockBreakMixin {
     private void updateBlockBreakingProgress(BlockPos pos, CallbackInfoReturnable<Boolean> cir) {
         final ClientPlayerEntity player = MinecraftClient.getInstance().player;
         if (player != null && player.isSneaking()) {
-            System.out.println("Updating cooldown to " + 5);
             setBlockBreakingCooldown(5);
         }
     }
