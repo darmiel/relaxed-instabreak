@@ -19,6 +19,9 @@
   "entrypoints": {
     "client": [
       "io.d2a.relaxedinstabreak.RelaxedInstabreakMod"
+    ],
+    "modmenu": [
+      "io.d2a.relaxedinstabreak.config.ModMenuConfigIntegration"
     ]
   },
   "mixins": [
