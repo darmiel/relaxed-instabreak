@@ -7,4 +7,9 @@ public class DefaultConfig implements RelaxedConfig {
         return false;
     }
 
+    @Override
+    public int getDelay() {
+        return 5; // creative mode has a default delay of 5
+    }
+
 }

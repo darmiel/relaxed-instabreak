@@ -28,7 +28,7 @@ public abstract class BlockBreakMixin {
     @Inject(method = "breakBlock", at = @At("RETURN"))
     private void updateBlockBreakingProgress(BlockPos pos, CallbackInfoReturnable<Boolean> cir) {
         if (this.doCooldown()) {
-            setBlockBreakingCooldown(5);
+            setBlockBreakingCooldown(RelaxedInstabreakMod.getConfig().getDelay());
         }
     }
 

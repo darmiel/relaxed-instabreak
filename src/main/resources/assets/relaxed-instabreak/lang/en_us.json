@@ -1,5 +1,8 @@
 {
   "text.autoconfig.relaxed-instabreak.title": "Relaxed Instabreak",
   "text.autoconfig.relaxed-instabreak.option.reversed": "Reversed Behavior",
-  "text.autoconfig.relaxed-instabreak.option.reversed.@Tooltip": "If enabled, relaxed breaking will always be enabled unless sneaking"
+  "text.autoconfig.relaxed-instabreak.option.reversed.@Tooltip": "If enabled, relaxed breaking will always be enabled unless sneaking",
+  "text.autoconfig.relaxed-instabreak.option.delay": "Delay",
+  "text.autoconfig.relaxed-instabreak.option.delay.@Tooltip[0]": "Delay in ticks after each block break",
+  "text.autoconfig.relaxed-instabreak.option.delay.@Tooltip[1]": "Default: 5 Ticks"
 }
