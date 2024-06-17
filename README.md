@@ -1,4 +1,4 @@
-![relaxed_instabreak](https://github.com/emilyavi/mc-mod-relaxed-instabreak/assets/151949862/68e74cf2-e51b-4c0a-b93f-36a8a3aadc04)
+![relaxed_instabreak](https://github.com/darmiel/relaxed-instabreak/assets/71837281/c711946c-50bc-4e20-b3fa-13c2851aaa15)
 
 This mod **adds a short cooldown after breaking a block while holding down the mouse button** (toggleable: while or while not sneaking).
 
@@ -13,7 +13,7 @@ It should be pretty similar to the creative mode experience -> blocks can be min
 # Preview
 Note: a Netherite Pickaxe with Efficiency V and Haste II was used in the demo.
 ### Vanilla Behavior
-![vanilla_behavior](https://github.com/emilyavi/mc-mod-relaxed-instabreak/assets/151949862/75c85049-f029-4a28-b4fc-78df087fb899)
+![vanilla_behavior](https://github.com/darmiel/relaxed-instabreak/assets/71837281/397b00d6-9f54-4b16-8366-07cc1d058b12)
 
 ### Relaxed Instabreak Behavior
-![relaxed_instabreak_behavior](https://github.com/emilyavi/mc-mod-relaxed-instabreak/assets/151949862/91153d36-e1ae-48af-81f8-51b3270c9e2d)
+![relaxed_instabreak_behavior](https://github.com/darmiel/relaxed-instabreak/assets/71837281/ed8a0f73-fbaa-4297-9026-fc640c4127e3)
