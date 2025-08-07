@@ -1,5 +1,7 @@
 {
   "text.autoconfig.relaxed-instabreak.title": "Relaxed Instabreak",
+  "text.autoconfig.relaxed-instabreak.option.alwaysEnabled": "Always Enabled",
+  "text.autoconfig.relaxed-instabreak.option.alwaysEnabled.@Tooltip": "If enabled, relaxed breaking will always be enabled",
   "text.autoconfig.relaxed-instabreak.option.reversed": "Reversed Behavior",
   "text.autoconfig.relaxed-instabreak.option.reversed.@Tooltip": "If enabled, relaxed breaking will always be enabled unless sneaking",
   "text.autoconfig.relaxed-instabreak.option.delay": "Delay",
