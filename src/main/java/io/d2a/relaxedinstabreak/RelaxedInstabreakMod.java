@@ -44,7 +44,7 @@ public class RelaxedInstabreakMod implements ClientModInitializer {
         if (player == null) {
             return false;
         }
-        return player.isSneaking() != RelaxedInstabreakMod.getConfig().isReversed();
+        return player.isSneaking() != config.isReversed();
     }
 
     @Override
