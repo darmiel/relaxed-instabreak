@@ -37,14 +37,9 @@ public class RelaxedInstabreakMod implements ClientModInitializer {
      */
     public static boolean isRelaxingBehaviorEnabled() {
         final RelaxedConfig config = RelaxedInstabreakMod.getConfig();
-        if (config.alwaysEnabled()) {
-            return true;
-        }
         final ClientPlayerEntity player = MinecraftClient.getInstance().player;
-        if (player == null) {
-            return false;
-        }
-        return player.isSneaking() != config.isReversed();
+        boolean sneaking = player != null && player.isSneaking();
+        return RelaxedBehavior.isEnabled(config.alwaysEnabled(), config.isReversed(), sneaking);
     }
 
     @Override

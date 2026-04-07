@@ -40,6 +40,13 @@ dependencies {
     modApi("com.terraformersmc:modmenu:11.0.3") {
 		exclude(group: "net.fabricmc.fabric-api")
 	}
+
+	testImplementation "org.junit.jupiter:junit-jupiter:5.10.2"
+	testRuntimeOnly "org.junit.platform:junit-platform-launcher"
+}
+
+test {
+	useJUnitPlatform()
 }
 
 processResources {
